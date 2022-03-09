@@ -1,0 +1,87 @@
+body {
+  background-image: url("https://i.pinimg.com/originals/d2/11/f2/d211f24881c279a942c72814e6f618df.gif");
+  background-size: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0;
+}
+
+.container {
+  flex-direction: column;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.box {
+  background-color: black;
+  border-radius: 20px;
+  padding: 10px;
+}
+
+.page-title {
+  color: yellow;
+  font-family: "JetBrains Mono";
+  font-weight: regular;
+}
+
+.page-subtitle {
+  color: white;
+  margin-top: 5px;
+  font-family: "JetBrains Mono";
+  font-weight: regular;
+}
+
+.page-logo {
+  width: 200px;
+}
+
+.alura-logo {
+  width: 40px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+input {
+  margin: 12px;
+  padding: 6px;
+  border-radius: 5px;
+  background: black;
+}
+
+.valor {
+  border-color: orangered;
+  border-radius: 7px;
+  color: white;
+  font-family: "Montserrat";
+}
+
+label {
+  color: orangered;
+  font-family: "Montserrat";
+}
+
+button {
+  margin-top: 12px;
+  padding: 4px 8px;
+  border-radius: 10px;
+  background: black;
+  border-color: white;
+}
+
+h2 {
+  display: flex;
+  color: black;
+  font-family: "JetBrains Mono";
+  font-weight: bold;
+  align-content: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.clicar {
+  color: white;
+}
